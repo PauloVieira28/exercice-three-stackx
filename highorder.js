@@ -2,7 +2,7 @@
 // e retorna um novo array com cada número dobrado.
 function dobrarNumeros(array) {
     // Sua implementação aqui
-    return array.filter(num => num * 2 === 0);
+    return array.map(num => num * 2);
 }
 
 // Implemente a função 'somarValores' que recebe um array de números
@@ -16,7 +16,7 @@ function somarValores(array) {
 // e retorna um novo array contendo apenas os números pares.
 function filtrarPares(array) {
     // Sua implementação aqui
-    return array.map(num => num % 2);
+    return array.filter(num => num % 2 === 0);
 }
 
 module.exports = {
