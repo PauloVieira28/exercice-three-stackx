@@ -11,12 +11,12 @@ function somaNumeros(n) {
 // Verifica se um número é par
 function ehPar(number) {
   // Sua implementação aqui
-  if (n === 0) {
+  if (number === 0) {
     return true;
-  } else if (n === 1) {
+  } else if (number === 1) {
     return false;
   } else {
-    return ehPar(n - 2);
+    return ehPar(number - 2);
   }
 }
 
